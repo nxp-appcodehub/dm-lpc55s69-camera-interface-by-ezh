@@ -1,0 +1,27 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-lpc55s69-camera-interface-by-ezh" type="demo" format="projectfile" versionSchema="1.0.0" name="lpc55s69-camera-interface-by-ezh">
+    <display_title>
+        Using EZH to implement camera interface in lpc55 series mcu
+    </display_title>
+    <overview>
+        <![CDATA[This demo introduces a parallel interface for the camera solution for LPC55(S)xx.<br /><br />]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="lpc"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="LPCXpresso55S69"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="i2c"></peripheral>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="spi"></peripheral>
+        <peripheral name="video"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+        <category name="hmi"></category>
+    </categories>
+</data:item>
